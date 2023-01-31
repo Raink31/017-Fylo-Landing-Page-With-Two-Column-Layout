@@ -10,13 +10,24 @@ img{
     display: block;
 }
 
-/* CSS */
+/* Style guide roots */
+
+:root{
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+
+/* CSS Style guide */
 
 body {
-    font-size: ;
-    font-family: ;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
     min-height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,6 +35,143 @@ body {
 }
 
 main {
-    max-width: 375px;
-    margin: 0.5rem;
+    max-width: 767.99px;
+    width: 100%;
+    margin: 0 1.5rem;
 }
+
+a, input{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* header logo & list */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+header img{
+    width: 25%;
+    height: 25%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 1.5rem;
+    font-size: 0.9em;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--very-dark-blue);
+}
+
+/* First section */
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+
+.top-section img{
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+
+.top-section-text{
+    text-align: center;
+    color: var(--very-dark-blue);
+}
+
+.top-section-text h1{
+    font-weight: bolder;
+    line-height: 38px;
+    margin-bottom: 1.5rem;
+}
+
+.top-section-text p{
+    margin: 0 1.5rem;
+    font-size: 0.85em;
+    line-height: 20px;
+    margin-bottom: 1.5rem;
+}
+
+/* First section form*/
+
+.top-section-text form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+
+.top-section-text #email{
+    padding: 0.7rem 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.top-section-text #email::placeholder{
+    color: var(--light-gray);
+}
+
+.top-section-text #submit{
+    background-color: var(--bright-blue);
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(194, 192, 192);
+}
+
+/* Second section BG & Image */
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    background-color: #f9f8fe;
+    position: relative;
+}
+
+.second-section::before{
+    content: "";
+    background-image: url("assets/images/bg-curve-mobile.svg");
+    background-repeat: repeat-x;
+    position: absolute;
+    top: -45px;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+}
+
+.second-section img {
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Second section paragraph */
+
+
+
+
+
+
+
+
+
+
