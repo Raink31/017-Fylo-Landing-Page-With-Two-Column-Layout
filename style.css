@@ -52,6 +52,8 @@ header{
     align-items: center;
     margin: 1.5rem;
     margin-bottom: 6rem;
+    max-width: 767.99px;
+    width: 90%;
 }
 
 header img{
@@ -161,17 +163,187 @@ header a{
 .second-section img {
     width: 90%;
     margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 5rem;
 }
 
 /* Second section paragraph */
 
+.second-section-text h2{
+    font-size: 1.05em;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
 
+.second-section-text p{
+    color: var(--desaturated-blue);
+    font-size: 0.9em;
+    line-height: 22px;
+    margin-bottom: 1.5rem;
+}
 
+/* Second section button */
 
+.fylo-works-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    border-bottom: 1px solid var(--moderate-cyan);
+    width: max-content;
+    margin: auto;
+    padding-bottom: 0.5rem;
+    margin-top: 3rem;
+}
 
+.fylo-works-link img{
+    width: 10%;
+    margin: 0;
+}
 
+.fylo-works-link a{
+    color: var(--moderate-cyan);
+    font-size: 0.9em;
+    text-decoration: none;
+}
 
+/* Second section card */
 
+.quote-card{
+    margin-top: 3rem;
+    background-color: white;
+    padding: 1.6rem 1.6rem;
+    margin-bottom: 6rem;
+    box-shadow: 0 0 10px rgba(194, 192, 192, 0.541);
+}
 
+.quote-card img{
+    width: 6%;
+    margin: 0;
+}
 
+#quote-img{
+    margin-bottom: 1rem;
+}
+
+.quote-card p{
+    font-size: 0.77em;
+    line-height: 20px;
+    margin-bottom: 1rem;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.profile img{
+    width: 10%;
+    border-radius: 200px;
+}
+
+.profile h2, .profile p{
+    margin: 0;
+    text-align: left;
+}
+
+.profile h2{
+    font-size: 0.8em;
+}
+
+.profile p{
+    font-size: 0.5em;
+}
+
+/* Bottom section text & BG */
+
+.bottom-section{
+    color: white;
+    background-color: var(--desaturated-blue);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 4.5rem;
+}
+
+.bottom-section h2{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    margin: 0 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.bottom-section p{
+    font-size: .85em;
+    margin: 0 3rem;
+    line-height: 20px;
+    color: var(--light-grayish-blue);
+    margin-bottom: 1.5rem;
+}
+
+/* Bottom section form */
+
+.bottom-section form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 4rem;
+}
+
+.bottom-section #email {
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+}
+
+.bottom-section #email::placeholder {
+    color: var(--light-gray);
+}
+
+.bottom-section #submit {
+    font-size: 0.7em;
+    background-color: var(--bright-blue);
+    border: none;
+    padding: 0.6rem 0.5rem;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(83, 83, 83);
+}
+
+/* Footer logo phone & mail */
+
+footer{
+    max-width: 767.99px;
+    width: 100%;
+    color: white;
+    background-color: var(--very-dark-blue);
+}
+
+footer svg{
+    margin: 3rem 3rem 1.5rem 3rem;
+    width: 80%;
+}
+
+footer path{
+    fill: white;
+}
+
+.footer-text{
+    margin: 0 3rem;
+}
+
+.phone, .mail{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9em;
+    color: var(--light-grayish-blue);
+}
+
+.phone img, .mail img{
+    width: 6%;
+}
+
+.phone{
+    margin-bottom: 0.5rem;
+}
