@@ -319,12 +319,12 @@ footer{
     background-color: var(--very-dark-blue);
 }
 
-footer svg{
+#footer-logo{
     margin: 3rem 3rem 1.5rem 3rem;
     width: 80%;
 }
 
-footer path{
+#footer-logo path{
     fill: white;
 }
 
@@ -347,3 +347,7 @@ footer path{
 .phone{
     margin-bottom: 0.5rem;
 }
+
+.mail{}
+
+
