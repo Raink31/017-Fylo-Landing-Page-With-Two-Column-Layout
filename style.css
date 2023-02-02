@@ -140,6 +140,7 @@ header a:hover{
     border: none;
     padding: 0.7rem 0;
     height: 2.5rem;
+    max-width: 767.99px;
     width: 100%;
     border-radius: 3px;
     color: white;
@@ -181,7 +182,7 @@ header a:hover{
 /* Second section paragraph */
 
 .second-section-text{
-    max-width: 327px;
+    max-width: 767.99px;
     width: 100%;
 }
 
@@ -206,7 +207,8 @@ header a:hover{
     align-items: center;
     gap: .5rem;
     border-bottom: 1px solid var(--moderate-cyan);
-    width: max-content;
+    max-width: 156.45px;
+    width: 100%;
     margin: auto;
     padding-bottom: 0.5rem;
     margin-top: 3rem;
@@ -340,6 +342,7 @@ header a:hover{
     border: none;
     padding: 0.6rem 0;
     height: 2rem;
+    max-width: 767.99px;
     width: 100%;
     border-radius: 3px;
     color: white;
