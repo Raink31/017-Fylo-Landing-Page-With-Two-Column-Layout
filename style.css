@@ -347,6 +347,10 @@ header a:hover{
     transition: all 0.4s;
 }
 
+input[type="submit"] {
+    -webkit-appearance: none;
+}
+
 #submit:hover{
     background-color: #6b9bff;
     cursor: pointer;
