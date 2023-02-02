@@ -439,6 +439,8 @@ footer a{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    width: max-content;
+    margin: auto;
 }
 
 .socials-links li{
