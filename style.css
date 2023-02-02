@@ -439,7 +439,8 @@ footer a{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: max-content;
+    max-width: max-content;
+    width: 100%;
     margin: auto;
 }
 
