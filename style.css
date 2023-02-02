@@ -140,6 +140,7 @@ header a:hover{
     border: none;
     height: 2.5rem;
     max-width: 767.99px;
+    border-radius: .2rem;
     width: 100%;
     color: white;
     font-weight: bold;
@@ -339,6 +340,7 @@ header a:hover{
     background-color: var(--bright-blue);
     border: none;
     height: 2rem;
+    border-radius: .2rem;
     max-width: 767.99px;
     width: 100%;
     color: white;
