@@ -14,6 +14,7 @@ Your challenge is to build out this page and get it looking as close to the desi
 ![mobile screenshot](./assets/images/mobile.png)
 
 ### Desktop Screenshot
+![desktop screenshot](./assets/images/desktop.png)
 
 
 ## Links
