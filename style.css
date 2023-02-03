@@ -718,5 +718,24 @@ footer a{
         height: 2.5rem;
         width: 35%;
     }
+
+    /* Footer logo phone & mail */
+
+    #footer-logo {
+        margin: 5rem 4rem 1rem 4rem;
+        width: 80%;
+    }
+
+    .footer-text {
+        margin: 0 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 75%;
+    }
+
+    .phone {
+        margin-bottom: 1rem;
+    }
 }
 
