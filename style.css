@@ -124,18 +124,18 @@ header a:hover{
     margin-bottom: 8rem;
 }
 
-.top-section-text #email{
+.top-section-text .email{
     padding: 0.7rem 1rem;
     border: 1px solid black;
     border-radius: 3px;
     margin-bottom: 1rem;
 }
 
-.top-section-text #email::placeholder{
+.top-section-text .email::placeholder{
     color: var(--light-gray);
 }
 
-.top-section-text #submit{
+.top-section-text .submit{
     background-color: var(--bright-blue);
     border: none;
     height: 2.5rem;
@@ -324,18 +324,18 @@ header a:hover{
     margin: 0 4rem;
 }
 
-.bottom-section #email {
+.bottom-section .email {
     padding: 0.5rem 0.5rem;
     border: 1px solid black;
     border-radius: 3px;
     margin-bottom: 0.5rem;
 }
 
-.bottom-section #email::placeholder {
+.bottom-section .email::placeholder {
     color: var(--light-gray);
 }
 
-.bottom-section #submit {
+.bottom-section .submit {
     font-size: 0.7em;
     background-color: var(--bright-blue);
     border: none;
@@ -353,7 +353,7 @@ input[type="submit"] {
     -webkit-appearance: none;
 }
 
-#submit:hover{
+.submit:hover{
     background-color: #6b9bff;
     cursor: pointer;
 }
@@ -561,13 +561,13 @@ footer a{
         gap: 1rem;
     }
 
-    .top-section-text #email {
+    .top-section-text .email {
         padding: 0.7rem 1rem;
         margin-bottom: 0;
         flex: 1.5;
     }
 
-    .top-section-text #submit {
+    .top-section-text .submit {
         flex: 1;
     }
 
@@ -709,12 +709,12 @@ footer a{
         flex: 1;
     }
 
-    .bottom-section #email {
+    .bottom-section .email {
         padding: 0.8rem 0.8rem;
         width: 90%;
     }
 
-    .bottom-section #submit {
+    .bottom-section .submit {
         height: 2.5rem;
         width: 35%;
     }
