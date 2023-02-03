@@ -19,7 +19,7 @@ Your challenge is to build out this page and get it looking as close to the desi
 
 ## Links
 
-- Solution URL: --
+- Solution URL: https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-columns-layout-responsive-kZIre2poiW
 - Live Site URL: https://raink31.github.io/017-Fylo-Landing-Page-With-Two-Column-Layout/
 
 
