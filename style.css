@@ -206,7 +206,7 @@ header a:hover{
     align-items: center;
     gap: .5rem;
     border-bottom: 1px solid var(--moderate-cyan);
-    max-width: 156.45px;
+    max-width: 160px;
     width: 100%;
     margin: auto;
     padding-bottom: 0.5rem;
@@ -487,5 +487,236 @@ footer a{
     font-weight: bold;
 }
 
+@media screen and (min-width: 768px){
+    /* CSS Style guide */
+    
+    main, header, footer{
+        max-width: 100vw;
+        width: 100%;
+    }
 
+    h1, h2{
+        font-family: 'Raleway', sans-serif;
+    }
+
+    /* header logo & list */
+    
+    header {
+        margin: 2.5rem;
+        margin-bottom: 6rem;
+        width: 92%;
+    }
+    
+    header img {
+        width: 8%;
+    }
+
+    header ul {
+        gap: 4rem;
+    }
+
+    /* First section */
+
+    .top-section {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 4rem;
+        gap: 6rem;
+        margin-bottom: 14%;
+    }
+
+    .top-section img {
+        width: 40%;
+        margin-bottom: 0;
+        flex: 1;
+    }
+
+    .top-section-text {
+        margin-top: 6rem;
+        text-align: left;
+        flex: 1;
+    }
+
+    .top-section-text h1 {
+        font-size: 2.4em;
+        line-height: 54px;
+        margin-bottom: 1rem;
+    }
+
+    .top-section-text p {
+        margin: 0;
+        width: 95%;
+        font-size: 1.1em;
+        line-height: 24px;
+        margin-bottom: 1rem;
+    }
+
+    /* First section form*/
+
+    .top-section-text form {
+        flex-direction: row;
+        margin-bottom: 8rem;
+        gap: 1rem;
+    }
+
+    .top-section-text #email {
+        padding: 0.7rem 1rem;
+        margin-bottom: 0;
+        flex: 1.5;
+    }
+
+    .top-section-text #submit {
+        flex: 1;
+    }
+
+    /* Second section BG & Image */
+
+    .second-section {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 4rem;
+        padding-top: 2rem;
+        padding-bottom: 6rem;
+        position: relative;
+        gap: 3rem;
+    }
+
+    .second-section::before {
+        background-image: url("assets/images/bg-curve-desktop.svg");
+        top: -114px;
+        height: 26%;
+    }
+
+    .second-section img {
+        width: 40%;
+        margin: 0;
+        flex: 1;
+    }
+
+    /* Second section paragraph */
+
+    .second-section-text {
+        flex: 1;
+    }
+
+    .second-section-text h2 {
+        text-align: left;
+        font-size: 2.4em;
+        margin-bottom: 1.5rem;
+    }
+
+    .second-section-text p {
+        font-size: 1em;
+        line-height: 22px;
+        margin-bottom: 1rem;
+        width: 85%;
+    }
+
+    /* Second section button */
+
+    .fylo-works-link {
+        margin: 0;
+        font-size: 1em;
+        margin-top: 1rem;
+    }
+
+    /* Second section card */
+
+    .quote-card {
+        margin-top: 3rem;
+        margin-bottom: 0;
+        max-width: 22rem;
+        width: 100%;
+    }
+
+    .quote-card img {
+        width: 6%;
+        margin: 0;
+    }
+
+    #quote-img {
+        margin-bottom: 1rem;
+    }
+
+    .quote-card p {
+        font-size: 0.85em;
+        line-height: 24px;
+        margin-bottom: 1rem;
+        width: 95%;
+    }
+
+    .profile {
+        width: 45%;
+    }
+
+    .profile img {
+        width: 10%;
+    }
+
+    .profile h2,
+    .profile p {
+        margin: 0;
+        text-align: left;
+    }
+
+    .profile h2 {
+        font-size: 0.8em;
+    }
+
+    .profile p {
+        font-size: 0.5em;
+        width: max-content;
+    }
+
+    /* Bottom section text & BG */
+
+    .bottom-section {
+        display: flex;
+        align-items: baseline;
+        gap: 4rem;
+        text-align: left;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .bottom-section h2 {
+        font-size: 1.9em;
+        letter-spacing: 0;
+        margin: 0 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .bottom-section-text{
+        flex: 1;
+    }
+
+    .bottom-section p {
+        font-size: 1em;
+        margin: 0 4rem;
+        line-height: 26px;
+        margin-bottom: 0;
+    }
+
+    /* Bottom section form */
+
+    .bottom-section form {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        margin: 0 4rem;
+        flex: 1;
+    }
+
+    .bottom-section #email {
+        padding: 0.8rem 0.8rem;
+        width: 90%;
+    }
+
+    .bottom-section #submit {
+        height: 2.5rem;
+        width: 35%;
+    }
+}
 
